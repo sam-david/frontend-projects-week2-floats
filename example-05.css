@@ -10,9 +10,18 @@
 	margin: 0 auto;
 }
 
+.header:before,
+.header:after {
+	content: "";
+	display: table;
+}
+
+.header:after {
+	clear: both;
+}
+
 .header {
-	float: left;
-	width: 985px;
+
 }
 /* hint! what do you have to add here? */
 
@@ -30,11 +39,16 @@
 	height: 350px;
 }
 
-.main-content {
-	clear: both;
-	float: left;
-	width: 985px;
+.main-content:before, .main-content:after {
+	content: "";
+	display: table;
 }
+
+.main-content:after {
+	clear: both;
+}
+
+
 /* hint! you have to contain the floated children elements. */
 
 .sub-content {
