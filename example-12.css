@@ -1,0 +1,46 @@
+/* ---------------------------------------------------------- */
+/* Float Examples for MakerSquare Front-End Class ----------- */
+/* created by Elyse Holladay @elyseholladay ----------------- */
+/* ---------------------------------------------------------- */
+
+/* Example 12 */
+
+/* To Do List */
+.todolist {
+	width: 400px;
+}
+
+/* Individual Todo */
+.todo {
+	clear: both;
+	border-bottom: solid 1px black;
+}
+
+
+/* Priority icon dot */
+.icon {
+	float: left;
+}
+
+/* Info of the todo, title and date */
+.todo-info {
+	float: left;
+	margin-top: 16px;
+	margin-left: 5px;
+	margin-bottom: 10px;
+
+}
+
+/* Title */
+.todo-title {
+	font-size: 1.8em;
+}
+
+/* Date */
+.todo-date {}
+
+/* Checkboxes! */
+input[type=checkbox] {
+	float: right;
+	margin-top: 25px;
+}
